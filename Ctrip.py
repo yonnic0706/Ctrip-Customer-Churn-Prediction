@@ -14,7 +14,6 @@ from sklearn import tree
 from sklearn.cluster import KMeans
 
 #导入数据
-os.chdir('/Users/yangying/01_Work/01_Python/01_Ctrip_190516-190517')
 data = pd.read_csv('userlostprob_train.txt',sep='\t')
 
 '''
